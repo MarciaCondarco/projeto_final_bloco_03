@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+
 
 function Navbar() {
     return (
@@ -9,25 +9,26 @@ function Navbar() {
                 <div
                     className=""
                 >
-                    <Link to='/home' className="text-2xl font-bold">
+                <div>
                     <img src="https://i.imgur.com/G7WFsPp.png" alt="imagem da logo da farmacia VIDA"
                         className="w-15 h-15"
                     />
-                    </Link>
+                </div>
+
                 </div>
 
                 {/* botões */}
                 <div className="flex justify-center gap-10 items-center"
                 >
-                    <Link to="/historico">
-                        Historico
-                    </Link>
-                    <Link to="/categoria">
+                    <div>
                         Categoria
-                    </Link>
-                    <Link to="/carrinho">
-                        Carrinho
-                    </Link>
+                    </div>
+                    <div>
+                        Produto
+                    </div>
+                    <div>
+                        Cadastro Categoria
+                    </div>
                 </div>
             </div>
         </>
