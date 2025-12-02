@@ -11,7 +11,7 @@ function Navbar() {
                 >
                     <Link to='/home' className="text-2xl font-bold">
                     <img src="https://i.imgur.com/G7WFsPp.png" alt="imagem da logo da farmacia VIDA"
-                        className="w-15 h-15"
+                        className="w-20 h-20"
                     />
                     </Link>
                 </div>
@@ -19,14 +19,14 @@ function Navbar() {
                 {/* botões */}
                 <div className="flex justify-center gap-10 items-center"
                 >
-                    <Link to="/historico">
-                        Historico
+                    <Link to="">
+                        Produto
                     </Link>
-                    <Link to="/categoria">
+                    <Link to="">
                         Categoria
                     </Link>
-                    <Link to="/carrinho">
-                        Carrinho
+                    <Link to="">
+                        Cadastro categoria
                     </Link>
                 </div>
             </div>
