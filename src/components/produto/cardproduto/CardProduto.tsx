@@ -21,9 +21,9 @@ function CardProduto({produto}: CardProdutoProps) {
                     <div className="text-black">
                         <h2>{produto.preco}</h2>
                     </div>
-                    <Link to={`/produtos/${produto.id}`} className="flex justify-center bg-lime-200 p-2 w-full rounded-2xl">
+                   
                         Ver produto
-                    </Link>
+                    
                 </div>
             </div>
         </>

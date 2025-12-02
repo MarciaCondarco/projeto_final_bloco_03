@@ -6,7 +6,7 @@ import ListaCategoria from "./components/categoria/listacategoria/ListaCategoria
 import Formcategoria from "./components/categoria/formcategoria/FormCategoria"
 import DeleteCategoria from "./components/categoria/deletecategoria/DeleteCategoria"
 import ListaProduto from "./components/produto/listaproduto/ListaProduto"
-import PaginaProduto from "./components/produto/paginaproduto/PaginaProduto"
+
 
 
 
@@ -23,7 +23,7 @@ function App() {
             <Route path="/editarcategoriа/:id" element={<Formcategoria />} />
             <Route path="/deletarcategoria/:id" element={<DeleteCategoria />} />
             <Route path="/listaproduto" element={<ListaProduto />} />
-            <Route path="/produtos/:id" element={<PaginaProduto />} />
+
           </Routes>
           <Footer />
       </BrowserRouter>
