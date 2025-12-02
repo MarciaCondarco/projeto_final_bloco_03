@@ -1,8 +1,12 @@
 import { Link } from "react-router-dom"
 
+
 function Navbar() {
+
+
     return (
         <>
+
             <div className="flex justify-between items-center px-20 py-5 bg-lime-200">
 
                 {/* logo */}
@@ -19,13 +23,13 @@ function Navbar() {
                 {/* botões */}
                 <div className="flex justify-center gap-10 items-center"
                 >
-                    <Link to="">
+                    <Link to="/listaproduto">
                         Produto
                     </Link>
-                    <Link to="">
+                    <Link to="/listacategoria">
                         Categoria
                     </Link>
-                    <Link to="">
+                    <Link to="/formcategoriа">
                         Cadastro categoria
                     </Link>
                 </div>
