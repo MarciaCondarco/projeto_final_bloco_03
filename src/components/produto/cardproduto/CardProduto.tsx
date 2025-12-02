@@ -1,5 +1,4 @@
 
-import { Link } from "react-router-dom"
 import type Produto from "../../../models/Produto"
 
 
@@ -21,7 +20,6 @@ function CardProduto({produto}: CardProdutoProps) {
                     <div className="text-black">
                         <h2>{produto.preco}</h2>
                     </div>
-                   
                         Ver produto
                     
                 </div>
